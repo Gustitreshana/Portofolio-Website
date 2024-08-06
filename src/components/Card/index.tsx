@@ -6,7 +6,7 @@ interface CardProps {
 
 const Card = ({ title, description, date }: CardProps) => {
   return (
-    <div className="border-2 border-emerald-600 rounded-lg p-4 flex justify-center flex-col gap-2">
+    <div className="border-2 border-emerald-600 rounded-lg p-4 flex justify-center flex-col gap-2 transform transition-transform duration-300 hover:scale-105">
       <div>
         <h2 className="text-2xl font-bold text-emerald-600">{date}</h2>
       </div>
