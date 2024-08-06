@@ -3,7 +3,7 @@ import Card from "../Card";
 const Education = () => {
   return (
     <div id="education" className="flex flex-col gap-20 h-screen">
-        <div className="flex justify-center items-center mt-10">
+        <div className="flex justify-center items-center pt-20">
             <h2 className="text-6xl font-bold">My <span className="text-emerald-600">Education</span></h2>
         </div>
       <div className="flex flex-col gap-4 w-[50%] mx-auto">

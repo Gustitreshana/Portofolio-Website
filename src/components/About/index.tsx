@@ -3,7 +3,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <div id="about" className="h-screen bg-gradient-to-t from-black via-emerald-600 to-black">
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center pt-20">
         <h2 className="text-6xl font-bold">
           About <span className="text-emerald-600">Me</span>
         </h2>
