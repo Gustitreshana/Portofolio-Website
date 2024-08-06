@@ -4,13 +4,14 @@ import Image from "next/image";
 import Button from "@/components/Button";
 
 const Header = () => {
+
   return (
     <div id="home" className="flex justify-around items-center h-screen">
       <div className="flex flex-col justify-center w-1/2 gap-10">
         <div className="flex flex-col justify-center gap-6">
           <h1 className="text-8xl font-bold">
-            Hi, I'm <span className="text-emerald-600">Gusti</span> Treshana
-            Herman
+            Hi, I'm <span className="text-emerald-600 glowing-text">Gusti</span>{" "}
+            <span className="glowing-text">Treshana Herman</span>
           </h1>
           <h2 className="text-4xl font-bold text-yellow-600">
             I'm a full stack developer
