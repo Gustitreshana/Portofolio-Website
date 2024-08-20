@@ -4,13 +4,14 @@ import Image from "next/image";
 import Button from "@/components/Button";
 
 const Header = () => {
-
   const handleTalkToMe = () => {
     window.open("https://wa.me/6285710000000");
   };
 
   const handleDownloadCV = () => {
-    window.open("https://drive.google.com/file/d/1AJOoiLBLLLqVcGSsAly8K_CdIW2z7u48/view?usp=sharing");
+    window.open(
+      "https://drive.google.com/file/d/1AJOoiLBLLLqVcGSsAly8K_CdIW2z7u48/view?usp=sharing"
+    );
   };
 
   return (
@@ -32,45 +33,61 @@ const Header = () => {
           for various business needs.
         </p>
         <div className="flex gap-4">
-          <Button label="Download CV" variant="primary" onClick={handleDownloadCV} />
-          <Button label="Talk to me?" variant="secondary" onClick={handleTalkToMe} />
+          <Button
+            label="Download CV"
+            variant="primary"
+            onClick={handleDownloadCV}
+          />
+          <Button
+            label="Talk to me?"
+            variant="secondary"
+            onClick={handleTalkToMe}
+          />
         </div>
 
-        <div className="flex items-center gap-4">
-          <Image
-            className="cursor-pointer"
-            src="/icon-gmail.png"
-            alt="gmail"
-            width={50}
-            height={50}
-            onClick={() => window.open("mailto:gustith2105@gmail.com")}
-          />
-          <Image
-            className="cursor-pointer"
-            src="/icon-instagram.png"
-            alt="instagram"
-            width={50}
-            height={50}
-            onClick={() => window.open("https://www.instagram.com/gustitreshana/")}
-          />
-          <Image
-            className="cursor-pointer"
-            src="/icon-linkedin.png"
-            alt="linkedin"
-            width={30}
-            height={30}
-            onClick={() =>
-              window.open("https://www.linkedin.com/in/gusti-treshana-herman-094064150/?originalSubdomain=id")
-            }
-          />
-          <Image
-            className="cursor-pointer"
-            src="/icon-github.png"
-            alt="github"
-            width={35}
-            height={35}
-            onClick={() => window.open("https://github.com/Gustitreshana")}
-          />
+        <div className="flex gap-2">
+          <div className="flex items-center">
+            <Image
+              className="cursor-pointer"
+              src="/icon-gmail.png"
+              alt="gmail"
+              width={45}
+              height={45}
+              onClick={() => window.open("mailto:gustith2105@gmail.com")}
+            />
+            <Image
+              className="cursor-pointer"
+              src="/icon-instagram.png"
+              alt="instagram"
+              width={50}
+              height={50}
+              onClick={() =>
+                window.open("https://www.instagram.com/gustitreshana/")
+              }
+            />
+          </div>
+          <div className="flex gap-4 items-center">
+            <Image
+              className="cursor-pointer"
+              src="/icon-linkedin.png"
+              alt="linkedin"
+              width={25}
+              height={25}
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/gusti-treshana-herman-094064150/?originalSubdomain=id"
+                )
+              }
+            />
+            <Image
+              className="cursor-pointer"
+              src="/icon-github.png"
+              alt="github"
+              width={30}
+              height={30}
+              onClick={() => window.open("https://github.com/Gustitreshana")}
+            />
+          </div>
         </div>
       </div>
 
