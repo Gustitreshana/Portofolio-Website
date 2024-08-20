@@ -5,7 +5,7 @@ import Image from "next/image";
 import Button from "@/components/Button";
 
 const Header = () => {
-  const texts = ["I`m a software engineer", "I love coding", "Welcome to my portfolio"];
+  const texts = ["I'm a software engineer", "I love coding", "Welcome to my portfolio"];
   const [currentText, setCurrentText] = useState(texts[0]);
   let index = 0;
 
