@@ -14,7 +14,7 @@ const Projects = () => {
   return (
     <div id="projects" className="flex flex-col justify-center items-center h-screen">
       <div>
-        <h2 className="text-6xl font-bold">
+        <h2 className="text-6xl font-bold text-gray-300">
           My <span className="text-emerald-600">Projects</span>
         </h2>
       </div>

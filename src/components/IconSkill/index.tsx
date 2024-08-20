@@ -12,7 +12,7 @@ const IconSkill = ({ title, image }: IconSkillProps) => {
         <Image src={image} alt={title} width={100} height={100} />
       </div>
       <div>
-        <h4 className="text-xl font-bold">{title}</h4>
+        <h4 className="text-xl font-bold text-gray-300">{title}</h4>
       </div>
     </div>
   );

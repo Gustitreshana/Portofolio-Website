@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div id="about" className="h-screen bg-gradient-to-t from-black via-emerald-600 to-black">
       <div className="flex items-center justify-center pt-20">
-        <h2 className="text-6xl font-bold">
+        <h2 className="text-6xl font-bold text-gray-300">
           About <span className="text-emerald-600">Me</span>
         </h2>
       </div>
@@ -22,7 +22,7 @@ const About = () => {
       </div>
 
       <div className="flex justify-center mt-20">
-        <p className="text-xl text-justify max-w-[900px]">
+        <p className="text-xl text-justify max-w-[900px] text-gray-300">
           I am Gusti Treshana Herman, a software engineer with expertise in
           full-stack development, specializing in{" "}
           <span className="text-yellow-6000">JavaScript</span>,{" "}
