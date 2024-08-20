@@ -45,7 +45,7 @@ html {
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s steps(26), cursor 0.4s step-end infinite alternate;
+  animation: typing 2s steps(26), cursor 0.55s step-end infinite alternate;
 }
 
 @keyframes cursor {
