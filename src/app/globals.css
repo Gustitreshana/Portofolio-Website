@@ -6,6 +6,10 @@ body {
     @apply bg-black text-white;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
