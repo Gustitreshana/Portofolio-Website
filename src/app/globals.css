@@ -41,11 +41,29 @@ html {
 
 .typing-text {
   border-right: 5px solid #d1d5db;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 2s steps(26), cursor 0.55s step-end infinite alternate;
+  animation: typing-deleting 10s steps(26) infinite, cursor 0.55s step-end infinite alternate;
+}
+
+@keyframes typing-deleting {
+  0% {
+    width: 0;
+  }
+  30% {
+    width: 100%;
+  }
+  50% {
+    width: 100%;
+  }
+  80% {
+    width: 0;
+  }
+  100% {
+    width: 0;
+  }
 }
 
 @keyframes cursor {
@@ -56,6 +74,12 @@ html {
 
 @keyframes typing {
   from {
+    width: 0;
+  }
+}
+
+@keyframes deleting {
+  to {
     width: 0;
   }
 }
