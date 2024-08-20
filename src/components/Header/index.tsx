@@ -53,7 +53,7 @@ const Header = () => {
               alt="gmail"
               width={45}
               height={45}
-              onClick={() => window.open("mailto:gustith2105@gmail.com")}
+              onClick={() => window.location.href = "mailto:gustith2105@gmail.com"}
             />
             <Image
               className="cursor-pointer"
