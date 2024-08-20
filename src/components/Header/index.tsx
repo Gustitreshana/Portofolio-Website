@@ -5,7 +5,7 @@ import Image from "next/image";
 import Button from "@/components/Button";
 
 const Header = () => {
-  const texts = ["I`m a software engineer", "I love coding", "Welcome to my portfolio"];
+  const texts = ["I'm a software engineer", "I love coding", "Welcome to my portfolio"];
   const [currentText, setCurrentText] = useState(texts[0]);
   let index = 0;
 
@@ -33,7 +33,7 @@ const Header = () => {
       <div className="flex flex-col justify-center w-1/2 gap-10">
         <div className="flex flex-col justify-center gap-6">
           <h1 className="text-8xl font-bold text-gray-300">
-            Hi, I'm <span className="text-emerald-600 glowing-text">Gusti</span>{" "}
+            Hi, I&apos;m <span className="text-emerald-600 glowing-text">Gusti</span>{" "}
             <span className="glowing-text">Treshana Herman</span>
           </h1>
           <div className="container-typing">
