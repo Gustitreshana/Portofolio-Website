@@ -5,6 +5,14 @@ import Button from "@/components/Button";
 
 const Header = () => {
 
+  const handleTalkToMe = () => {
+    window.open("https://wa.me/6285710000000");
+  };
+
+  const handleDownloadCV = () => {
+    window.open("https://drive.google.com/file/d/1AJOoiLBLLLqVcGSsAly8K_CdIW2z7u48/view?usp=sharing");
+  };
+
   return (
     <div id="home" className="flex justify-around items-center h-screen">
       <div className="flex flex-col justify-center w-1/2 gap-10">
@@ -24,8 +32,8 @@ const Header = () => {
           for various business needs.
         </p>
         <div className="flex gap-4">
-          <Button label="Download CV" variant="primary" />
-          <Button label="Talk to me?" variant="secondary" />
+          <Button label="Download CV" variant="primary" onClick={handleDownloadCV} />
+          <Button label="Talk to me?" variant="secondary" onClick={handleTalkToMe} />
         </div>
 
         <div className="flex items-center gap-4">
