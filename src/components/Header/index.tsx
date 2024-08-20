@@ -1,9 +1,23 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Button from "@/components/Button";
 
 const Header = () => {
+  const texts = ["I'm a full stack developer", "I love coding", "Welcome to my portfolio"];
+  const [currentText, setCurrentText] = useState(texts[0]);
+  let index = 0;
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      index = (index + 1) % texts.length;
+      setCurrentText(texts[index]);
+    }, 10000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   const handleTalkToMe = () => {
     window.open("https://wa.me/6285710000000");
   };
@@ -24,7 +38,7 @@ const Header = () => {
           </h1>
           <div className="container-typing">
             <h2 className="text-4xl font-bold text-yellow-600 typing-text">
-              I'm a full stack developer
+              {currentText}
             </h2>
           </div>
         </div>
