@@ -16,6 +16,7 @@ const About = () => {
             src="/Pas-Foto-Tuxedo-Gusti-BG-Black.png"
             alt="Gusti Treshana Herman"
             fill
+            objectPosition="50% 20%"
           />
         </div>
       </div>
