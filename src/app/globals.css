@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    @apply bg-black text-white;
+  @apply bg-black text-white;
 }
 
 body::-webkit-scrollbar {
@@ -11,7 +11,7 @@ body::-webkit-scrollbar {
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 @keyframes glowingText {
@@ -25,11 +25,37 @@ html {
     background-position: 0% 50%;
   }
 }
-  
+
 .glowing-text {
   background: linear-gradient(45deg, #8e44ad, #3498db, #2ecc71);
   background-size: 600% 600%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: glowingText 10s ease infinite;
+}
+
+.container-typing {
+  display: inline-block;
+  width: fit-content;
+}
+
+.typing-text {
+  border-right: 5px solid #d1d5db;
+  letter-spacing: 10px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(26), cursor 0.4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
 }
