@@ -23,7 +23,7 @@ const About = () => {
 
       <div className="flex justify-center mt-20">
         <p className="text-xl text-justify max-w-[900px] text-gray-300">
-          I am Gusti Treshana Herman, a software engineer with expertise in
+          I&apos;m Gusti Treshana Herman, a software engineer with expertise in
           full-stack development, specializing in{" "}
           <span className="text-yellow-6000">JavaScript</span>,{" "}
           <span className="text-yellow-600">TypeScript</span>,{" "}
