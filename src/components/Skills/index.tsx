@@ -11,7 +11,7 @@ const Skills = () => {
 
       <div className="flex flex-col justify-center items-center mx-auto mt-44">
         <div className="flex flex-col justify-center items-center gap-5">
-          <div className="flex gap-10 p-10">
+          <div className="flex gap-10 p-10 sm:flex-col">
             <IconSkill title="Javascript" image={"/JavaScript-logo.png"} />
             <IconSkill title="Typescript" image={"/Typescript-logo.svg"} />
             <IconSkill title="React" image={"/React-logo.png"} />

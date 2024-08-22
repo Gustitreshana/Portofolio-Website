@@ -9,9 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       screens: {
-        'mobile': {'min': '320px', 'max': '425px'},
-        'tablet': {'min': '426px', 'max': '768px'},
-        'laptop': {'min': '769px'},
+        'sm': {'max': '639px'},
+        'md': {'max': '767px'},
+        'lg': {'max': '1023px'},
+        'xl': {'max': '1279px'},
+        '2xl': {'max': '1535px'},
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

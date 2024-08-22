@@ -12,7 +12,7 @@ const Card = ({ title, description, date }: CardProps) => {
       </div>
       <div>
         <h3 className="text-xl font-bold text-yellow-600">{title}</h3>
-        <p className="text-sm text-gray-300">{description}</p>
+        <p className="text-sm text-justify text-gray-300">{description}</p>
       </div>
     </div>
   );

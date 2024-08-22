@@ -30,19 +30,19 @@ const Header = () => {
 
   return (
     <div id="home" className="flex justify-around items-center h-screen">
-      <div className="flex flex-col justify-center w-1/2 gap-10">
-        <div className="flex flex-col justify-center gap-6">
-          <h1 className="text-8xl font-bold text-gray-300">
+      <div className="flex flex-col justify-center w-1/2 gap-10 md:gap-6 md:px-6">
+        <div className="flex flex-col justify-center gap-6 md:gap-2 md:w-96">
+          <h1 className="text-8xl font-bold text-gray-300 md:text-4xl">
             Hi, I&apos;m <span className="text-emerald-600 glowing-text">Gusti</span>{" "}
             <span className="glowing-text">Treshana Herman</span>
           </h1>
           <div className="container-typing">
-            <h2 className="text-4xl font-bold text-yellow-600 typing-text">
+            <h2 className="text-4xl font-bold text-yellow-600 typing-text md:text-xl">
               {currentText}
             </h2>
           </div>
         </div>
-        <p className="text-xl text-justify text-gray-300">
+        <p className="text-xl text-justify text-gray-300 md:text-base">
           I have experience in developing web and mobile applications using
           various modern technologies. With expertise in both frontend and
           backend, I can create comprehensive and efficient digital solutions
@@ -109,8 +109,9 @@ const Header = () => {
         </div>
       </div>
 
-      <div>
+      <div className="flex md:justify-center md:items-center">
         <Image
+          className="md:w-10/12 md:h-10/12"
           src="/Pas-Foto-Jas-Hitam-Gusti.jpg"
           alt="Profile"
           width={500}

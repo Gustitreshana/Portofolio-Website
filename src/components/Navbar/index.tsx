@@ -30,9 +30,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 flex justify-between items-center p-4 px-20 z-10">
+    <div className="fixed top-0 left-0 right-0 flex justify-between items-center py-4 px-20 z-10 md:px-5">
       <div>
-        <h1 className="text-2xl font-bold text-emerald-600 glowing-text">
+        <h1 className="text-2xl font-bold text-emerald-600 glowing-text md:text-xl">
           Gusti
         </h1>
       </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
           {["home", "about", "education", "skills", "projects"].map((section) => (
             <li
               key={section}
-              className={`text-xl font-bold cursor-pointer transition-all duration-300 ${
+              className={`text-xl font-bold cursor-pointer transition-all duration-300 md:text-lg ${
                 activeSection === section ? "text-emerald-600 underline underline-offset-4" : "hover:text-yellow-600"
               }`}
             >
