@@ -9,8 +9,8 @@ const About = () => {
         </h2>
       </div>
 
-      <div className="flex justify-center mt-20">
-        <div className="relative w-[300px] h-[300px]">
+      <div className="flex justify-center mt-20 sm:mt-10">
+        <div className="relative w-[300px] h-[300px] sm:w-[200px] sm:h-[200px]">
           <Image
             className="rounded-full object-cover"
             src="/Pas-Foto-Tuxedo-Gusti-BG-Black.png"
@@ -21,8 +21,8 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-20 md:px-6">
-        <p className="text-xl text-justify max-w-[900px] text-gray-300">
+      <div className="flex justify-center mt-20 sm:mt-10 md:px-6">
+        <p className="text-xl text-justify max-w-[900px] text-gray-300 sm:text-base">
           I&apos;m Gusti Treshana Herman, a software engineer with expertise in
           full-stack development, specializing in{" "}
           <span className="text-yellow-6000">JavaScript</span>,{" "}

@@ -2,9 +2,9 @@ import Card from "../Card";
 
 const Education = () => {
   return (
-    <div id="education" className="flex flex-col gap-20 h-screen">
+    <div id="education" className="flex flex-col gap-20 h-screen sm:gap-10 sm:h-auto">
         <div className="flex justify-center items-center pt-20">
-            <h2 className="text-6xl font-bold text-gray-300">My <span className="text-emerald-600">Education</span></h2>
+            <h2 className="text-6xl font-bold text-gray-300 sm:text-5xl">My <span className="text-emerald-600">Education</span></h2>
         </div>
       <div className="flex flex-col gap-4 w-[50%] mx-auto md:w-[80%]">
         <Card

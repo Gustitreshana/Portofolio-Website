@@ -15,7 +15,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="flex flex-col justify-center items-center h-screen"
+      className="flex flex-col justify-center items-center h-screen sm:h-auto"
     >
       <div className="md:mt-20">
         <h2 className="text-6xl font-bold text-gray-300">
@@ -23,7 +23,7 @@ const Projects = () => {
         </h2>
       </div>
 
-      <div className="flex justify-center items-center gap-10 md:flex-col md:gap-0">
+      <div className="flex justify-center items-center gap-10 sm:px-6 sm:mb-10 md:flex-col md:gap-0">
         <div
           className="flex justify-center items-center gap-10 mt-20 cursor-pointer transition-all duration-300 hover:scale-105 md:mt-10 sm:flex-col"
           onClick={handleOpenMasakin}

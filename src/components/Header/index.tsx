@@ -29,8 +29,8 @@ const Header = () => {
   };
 
   return (
-    <div id="home" className="flex justify-around items-center h-screen">
-      <div className="flex flex-col justify-center w-1/2 gap-10 md:gap-6 md:px-6">
+    <div id="home" className="flex justify-around items-center h-screen sm:flex-col-reverse sm:h-auto">
+      <div className="flex flex-col justify-center w-1/2 gap-10 sm:w-full md:gap-6 md:px-6">
         <div className="flex flex-col justify-center gap-6 md:gap-2 md:w-96">
           <h1 className="text-8xl font-bold text-gray-300 md:text-4xl">
             Hi, I&apos;m <span className="text-emerald-600 glowing-text">Gusti</span>{" "}
@@ -48,7 +48,7 @@ const Header = () => {
           backend, I can create comprehensive and efficient digital solutions
           for various business needs.
         </p>
-        <div className="flex gap-4">
+        <div className="flex gap-4 sm:justify-center sm:items-center">
           <Button
             label="Download CV"
             variant="primary"
@@ -61,7 +61,7 @@ const Header = () => {
           />
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 sm:justify-center">
           <div className="flex items-center">
             <Image
               className="cursor-pointer"
@@ -109,7 +109,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="flex md:justify-center md:items-center">
+      <div className="flex sm:w-3/4 sm:h-3/4 sm:mt-10 md:justify-center md:items-center">
         <Image
           className="md:w-10/12 md:h-10/12"
           src="/Pas-Foto-Jas-Hitam-Gusti.jpg"
