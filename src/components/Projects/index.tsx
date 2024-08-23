@@ -55,7 +55,7 @@ const Projects = () => {
         </div>
 
         <div
-          className="mt-20 cursor-pointer transition-all duration-300 hover:scale-105 md:mt-6 lg:mt-6"
+          className="mt-20 cursor-pointer transition-all duration-300 hover:scale-105 sm:mt-6 md:mt-6 lg:mt-6"
           onClick={handleOpenZeroHunger}
         >
           <Image
