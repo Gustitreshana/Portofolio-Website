@@ -30,14 +30,14 @@ const Header = () => {
 
   return (
     <div id="home" className="flex justify-around items-center h-screen sm:flex-col-reverse sm:h-auto">
-      <div className="flex flex-col justify-center w-1/2 gap-10 sm:w-full md:gap-6 md:px-6">
-        <div className="flex flex-col justify-center gap-6 md:gap-2 md:w-96">
-          <h1 className="text-8xl font-bold text-gray-300 md:text-4xl">
+      <div className="flex flex-col justify-center w-1/2 gap-10 sm:w-full md:gap-6 md:px-6 lg:px-6">
+        <div className="flex flex-col justify-center gap-6 md:gap-2 md:w-96 lg:w-96">
+          <h1 className="text-8xl font-bold text-gray-300 md:text-4xl lg:text-4xl">
             Hi, I&apos;m <span className="text-emerald-600 glowing-text">Gusti</span>{" "}
             <span className="glowing-text">Treshana Herman</span>
           </h1>
           <div className="container-typing">
-            <h2 className="text-4xl font-bold text-yellow-600 typing-text md:text-xl">
+            <h2 className="text-4xl font-bold text-yellow-600 typing-text md:text-xl lg:text-2xl">
               {currentText}
             </h2>
           </div>

@@ -21,7 +21,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-20 sm:mt-10 md:px-6">
+      <div className="flex justify-center mt-20 sm:mt-10 md:px-6 lg:px-6">
         <p className="text-xl text-justify max-w-[900px] text-gray-300 sm:text-base">
           I&apos;m Gusti Treshana Herman, a software engineer with expertise in
           full-stack development, specializing in{" "}

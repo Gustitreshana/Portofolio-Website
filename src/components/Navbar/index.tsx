@@ -30,9 +30,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 right-0 flex justify-between items-center py-4 px-20 z-10 md:px-5">
+    <div className="fixed top-0 left-0 right-0 flex justify-between items-center py-4 px-20 z-10 md:px-5 lg:px-10">
       <div>
-        <h1 className="text-2xl font-bold text-emerald-600 glowing-text md:text-xl">
+        <h1 className="text-2xl font-bold text-emerald-600 glowing-text md:text-xl lg:text-2xl">
           Gusti
         </h1>
       </div>

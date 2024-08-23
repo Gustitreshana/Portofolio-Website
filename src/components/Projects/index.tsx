@@ -17,15 +17,15 @@ const Projects = () => {
       id="projects"
       className="flex flex-col justify-center items-center h-screen sm:h-auto"
     >
-      <div className="md:mt-20">
+      <div className="md:mt-20 lg:mt-20">
         <h2 className="text-6xl font-bold text-gray-300">
           My <span className="text-emerald-600">Projects</span>
         </h2>
       </div>
 
-      <div className="flex justify-center items-center gap-10 sm:px-6 sm:mb-10 md:flex-col md:gap-0">
+      <div className="flex justify-center items-center gap-10 sm:px-6 sm:mb-10 md:flex-col md:gap-0 lg:flex-col lg:gap-0">
         <div
-          className="flex justify-center items-center gap-10 mt-20 cursor-pointer transition-all duration-300 hover:scale-105 md:mt-10 sm:flex-col"
+          className="flex justify-center items-center gap-10 mt-20 cursor-pointer transition-all duration-300 hover:scale-105 sm:flex-col md:mt-10 lg:mt-10"
           onClick={handleOpenMasakin}
         >
           <div>
@@ -55,7 +55,7 @@ const Projects = () => {
         </div>
 
         <div
-          className="mt-20 cursor-pointer transition-all duration-300 hover:scale-105 md:mt-6"
+          className="mt-20 cursor-pointer transition-all duration-300 hover:scale-105 md:mt-6 lg:mt-6"
           onClick={handleOpenZeroHunger}
         >
           <Image

@@ -6,7 +6,7 @@ const Education = () => {
         <div className="flex justify-center items-center pt-20">
             <h2 className="text-6xl font-bold text-gray-300 sm:text-5xl">My <span className="text-emerald-600">Education</span></h2>
         </div>
-      <div className="flex flex-col gap-4 w-[50%] mx-auto md:w-[80%]">
+      <div className="flex flex-col gap-4 w-[50%] mx-auto md:w-[80%] lg:w-[80%]">
         <Card
           title="University of LIA Jakarta - English Linguistics"
           description="I am studying the principles of English language structure, gaining knowledge in phonetics and phonology, and engaging in
